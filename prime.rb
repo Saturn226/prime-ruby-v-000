@@ -7,4 +7,4 @@ def prime?(number)
   number < 2 || (2...number).to_a.none? do |num|
     number % num == 0
   end
-end
+endl
