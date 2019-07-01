@@ -4,7 +4,7 @@ def prime?(number)
   #   return false
   # end
   
-  number > 2 && (2...number).to_a.none? do |num|
+  number < 2 && (2...number).to_a.none? do |num|
     number % num == 0
   end
 end
